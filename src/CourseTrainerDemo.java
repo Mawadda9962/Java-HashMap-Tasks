@@ -34,7 +34,14 @@ public class CourseTrainerDemo {
         System.out.println("Course and Trainers:");
         System.out.println(courseTrainerRecords);
 
+       //Removing one course record using remove()
+        System.out.println(courseTrainerRecords.remove("Data Structures", "Omar Saleh"));
 
+        // Displaying all elements in the HashMap after Updating
+        System.out.println("Course and Trainers:");
+        System.out.println(courseTrainerRecords);
+
+        System.out.println("Display the total number of records: " + courseTrainerRecords.size());
 
     }
 }
