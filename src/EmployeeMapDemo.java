@@ -18,5 +18,13 @@ public class EmployeeMapDemo {
             System.out.println("ID:" + n.getKey() + " " + "names:" +  n.getValue());
         }
 
+        //Displaying the name of one specific employee using the employee ID
+        System.out.println(employeeRecords.get(555));
+
+        //checking whether one employee ID exists
+        System.out.println(employeeRecords.containsKey(555));
+
+
+
     }
 }
