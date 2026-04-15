@@ -38,5 +38,16 @@ public class EmployeeMapDemo {
         }
 
 
+        //Removing one employee record using remove()
+        employeeRecords.remove(555, "saaa");
+
+        //Displaying all elements in the HashMap using for each after removing
+        System.out.println("Employee Records:");
+        for(Map.Entry<Integer, String> n :employeeRecords.entrySet()){
+            System.out.println("ID:" + n.getKey() + " " + "names:" +  n.getValue());
+        }
+
+        System.out.println("The total number of records: " +employeeRecords.size());
+
     }
 }
