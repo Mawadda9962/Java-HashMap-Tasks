@@ -16,6 +16,26 @@ public class DepartmentManagerDemo {
         // Displaying all elements in the HashMap
         System.out.println("Departments and Managers:");
         System.out.println(departmentManagerRecords);
+
+        //Displaying the manager of one specific department
+        System.out.println(departmentManagerRecords.get("Finance"));
+
+        //checking whether one department name exists
+        System.out.println(departmentManagerRecords.containsKey("Marketing"));
+
+        //checking whether one department name dose not exists
+        System.out.println(departmentManagerRecords.containsKey("scince"));
+
+        //Updating the manager of one department using put()
+        departmentManagerRecords.put("Operations", "nasser");
+
+        // Displaying all elements in the HashMap after Updating
+        System.out.println("Departments and Managers:");
+        System.out.println(departmentManagerRecords);
+
+
+
+
     }
 }
 
