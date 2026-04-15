@@ -39,6 +39,11 @@ public class MovieDirectorDemo {
         System.out.println("Kids Movies and Directors:");
         System.out.println(movieDirectorRecords);
 
+        //Displaying the total number of records left in the map
+        System.out.println(movieDirectorRecords.size());
+
+
+
 
 
 
