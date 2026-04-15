@@ -32,8 +32,13 @@ public class MovieDirectorDemo {
         System.out.println("Kids Movies and Directors:");
         System.out.println(movieDirectorRecords);
 
-        // Removeing one movie record using remove()
-       movieDirectorRecords.remove("Shrek", "Andrew");
+        // Removing one movie record using remove()
+        movieDirectorRecords.remove("Shrek", "Andrew");
+
+        // Displaying all elements in the HashMap after removing
+        System.out.println("Kids Movies and Directors:");
+        System.out.println(movieDirectorRecords);
+
 
 
 
