@@ -16,6 +16,28 @@ public class BookAuthorDemo {
         System.out.println("Book Titles and Authors:");
         System.out.println(bookAuthorRecords);
 
+        //Display the author of one specific book
+        System.out.println(bookAuthorRecords.get("The Alchemist"));
+
+        // checking whether one book title exists
+        System.out.println(bookAuthorRecords.containsKey("Harry Potter"));
+
+        // Updateing the author of one book
+        bookAuthorRecords.put("The Alchemist", "rashel");
+
+        // Displaying all elements in the HashMap after updated
+        System.out.println("Book Titles and Authors:");
+        System.out.println(bookAuthorRecords);
+
+        // Deleteing one book record
+        bookAuthorRecords.remove("1984", "javk");
+
+        // Displaying all elements in the HashMap after Deleting
+        System.out.println("Book Titles and Authors:");
+        System.out.println(bookAuthorRecords);
+
+        // Displaying the total number of records
+        System.out.println("The total number of records: " + bookAuthorRecords.size());
 
 
 
