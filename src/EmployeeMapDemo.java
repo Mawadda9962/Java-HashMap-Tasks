@@ -25,6 +25,18 @@ public class EmployeeMapDemo {
         System.out.println(employeeRecords.containsKey(555));
 
 
+        //checking whether one employee ID dose not exists
+        System.out.println(employeeRecords.containsKey(888));
+
+        //Updateing the name of one employee using put()
+        employeeRecords.put(555, "saaa");
+
+        //Displaying all elements in the HashMap using for each after Updating
+        System.out.println("Employee Records:");
+        for(Map.Entry<Integer, String> n :employeeRecords.entrySet()){
+            System.out.println("ID:" + n.getKey() + " " + "names:" +  n.getValue());
+        }
+
 
     }
 }
