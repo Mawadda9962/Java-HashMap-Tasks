@@ -24,6 +24,16 @@ public class CourseTrainerDemo {
         // Checking whether one course name exists
         System.out.println(courseTrainerRecords.containsKey("Java Programming"));
 
+        // Checking whether one course name that dose not exists
+        System.out.println(courseTrainerRecords.containsKey("Electronics"));
+
+        // Updating the trainer of one course using put()
+        courseTrainerRecords.put("Data Structures", "suhail");
+
+        // Displaying all elements in the HashMap after Updating
+        System.out.println("Course and Trainers:");
+        System.out.println(courseTrainerRecords);
+
 
 
     }
