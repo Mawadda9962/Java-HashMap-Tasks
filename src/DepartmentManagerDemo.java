@@ -33,6 +33,16 @@ public class DepartmentManagerDemo {
         System.out.println("Departments and Managers:");
         System.out.println(departmentManagerRecords);
 
+        //Removing one department record using remove()
+        departmentManagerRecords.remove("Operations", "Fatima");
+
+        // Displaying all elements in the HashMap after removing
+        System.out.println("Departments and Managers:");
+        System.out.println(departmentManagerRecords);
+
+        //Displaying the total number of records
+        System.out.println("Displaying the total number of records: " + departmentManagerRecords.size());
+
 
 
 
